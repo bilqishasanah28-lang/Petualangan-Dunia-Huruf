@@ -1,0 +1,5 @@
+Rekaman huruf (opsional, paling akurat):
+1. Rekam 26 file suara: a.mp3, b.mp3, c.mp3 ... z.mp3 (huruf kecil), baca nama hurufnya: a, be, ce, de, e, ef, ge, ha, i, je, ka, el, em, en, o, pe, ki, er, es, te, u, ve, we, eks, ye, zet.
+2. Taruh di folder ini (assets/audio/huruf/).
+3. Di index.html cari: const LETTER_AUDIO = false;  lalu ubah menjadi true.
+Jika file huruf tertentu tidak ada, game memakai suara perangkat.
